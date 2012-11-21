@@ -34,9 +34,9 @@ platforms :mri, :mingw do
     gem "pg", ">= 0.11.0"
   end
 
-  group :sqlite do
-    # gem "sqlite3"
-  end
+  # group :sqlite do
+  #   gem "sqlite3"
+  # end
 end
 
 platforms :mri_18, :mingw_18 do
@@ -62,9 +62,9 @@ platforms :jruby do
     gem "activerecord-jdbcpostgresql-adapter"
   end
 
-  group :sqlite do
-    # gem "activerecord-jdbcsqlite3-adapter"
-  end
+  # group :sqlite do
+  #   gem "activerecord-jdbcsqlite3-adapter"
+  # end
 end
 
 group :development do
